@@ -1,0 +1,42 @@
+{
+  "name": "custom-react-ts",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest",
+    "react-router": "latest",
+    "react-router-dom": "latest",
+    "react-scripts": "latest",
+    "styled-components": "latest",
+    "typescript": "latest"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "yarn2": "npm install -g yarn && del yarn.lock .yarnrc.yml && yarn set version berry && yarn install && yarn add react-is && yarn dlx @yarnpkg/sdks vscode"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/jest": "latest",
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router-dom": "latest",
+    "@types/styled-components": "latest"
+  },
+  "homepage": "."
+}
